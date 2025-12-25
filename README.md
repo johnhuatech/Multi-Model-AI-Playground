@@ -1,6 +1,24 @@
 # Multi-Model-AI-Playground
 Compare responses from multiple free LLM providers in real-time
 
+ai-playground/
+├── package.json
+├── next.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── .gitignore
+├── README.md
+├── .env.local.example
+├── styles/
+│   └── globals.css
+└── pages/
+    ├── _app.js
+    ├── index.js
+    └── api/
+        ├── chat-hf.js
+        ├── chat-groq.js
+        └── chat-together.js
+
 # AI Playground - File by File
 
 ---
